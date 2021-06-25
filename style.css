@@ -1,0 +1,11 @@
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:20px ridge aqua;
+}
+@keyframes example{
+    from{box-shadow: 10px 10px 38px lightyellow;}
+    to{box-shadow: 10px 10px 38px lightcoral;}
+}
+  
